@@ -8,7 +8,7 @@ In this challenge, you will use [FHIR-Proxy](https://github.com/microsoft/fhir-p
 
 ## Background
 
-The wide adoption of [FHIR R4](https://hl7.org/FHIR/) has given patients a new measure of control over their health data. With a patient's data stored in FHIR, mechanisms are available to block certain providers and/or organizations from accessing the data if the patient elects to withhold records. One way these data restrictions are managed in FHIR is through the [Consent Resource](https://build.fhir.org/consent.html). In this challenge, we will be exploring capabilities in the Azure health data platform that make it possible for patients to opt out of sharing their FHIR records with certain parties.
+The wide adoption of [FHIR R4](https://hl7.org/FHIR/) has given patients a new measure of control over their health data. With patient data stored in FHIR, mechanisms are available to block certain providers from accessing data if a patient elects to withhold records. One way these data restrictions are managed in FHIR is through the [Consent Resource](https://build.fhir.org/consent.html). In this challenge, we will be exploring capabilities in the Azure health data platform that make it possible for patients to opt out of sharing their FHIR records with certain parties.
 
 ## Learning Objectives for Challenge-07
 By the end of this challenge you will be able to 
@@ -130,8 +130,8 @@ You now need to authenticate yourself as the caller trying to access `Patient/WD
 2. Click on the **Authorization** tab.
 3. Scroll down and click **Get New Access Token**.
 4. You will be prompted to "Authenticate via browser". Click **Proceed**.
-5. You will be taken to a new tab in your web browser, and if you are already logged into Azure Portal in your browser session, you should see a message: "Your call is authenticated". 
-    - If you are not logged into Azure Portal, you will be prompted to authenticate with your Azure login credentials. 
+5. You will be taken to a new tab in your web browser, and if you are already logged in to Azure Portal in your browser session, you should see a message: "Your call is authenticated". 
+    - If you are not logged in to Azure Portal, you will be prompted to authenticate with your Azure login credentials. 
     - **Important**: Make sure to disable pop-up window blocking for the Postman auth code page in your browser.
 6. After authenticating in your browser, you'll return to Postman and you'll see "Authentication complete". Click **Proceed**.
 7. Then click **Use Token** in the **MANAGE ACCESS TOKENS** window in Postman.
