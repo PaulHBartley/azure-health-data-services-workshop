@@ -53,7 +53,7 @@ When doing a search on a FHIR server, the initial target for the query can be an
 2. A specified [Resource Compartment](https://www.hl7.org/fhir/compartmentdefinition.html)
 3. Whole system interactions (e.g., querying against a search parameter shared by all Resources)
 
-In this challenge, we will be querying for Resource instances using Resource-type level interactions (1). 
+In this challenge, you will be querying for Resource instances using Resource-type level interactions (1). 
 
 ### Searching with `GET`
 
